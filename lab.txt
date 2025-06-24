@@ -1,0 +1,1 @@
+"C:\Program Files\PostgreSQL\13\bin\pg_restore.exe" -c --if-exists -U postgres -d postgres "C:\Users\varshini.chitti_sids\Zachly\data-engineer-handbook\bootcamp\materials\1-dimensional-data-modeling/data.dump"
