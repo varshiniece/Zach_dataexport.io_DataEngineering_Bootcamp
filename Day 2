@@ -1,1 +1,11 @@
+Idempotent Pipelines are critical. 
+Idempotent pipelines should give same numbers any time, any day 
+SCD : dimensions that change over a period of time. 
+Types of SCD: 0,1,2,3
+Type 0 : dimensions that do not change (ex- birth date)
+Type 1 : pipelines can never be idempotent . comes with latest value 
+probably ok for OLTP but not preferred for Analytical purposes. 
+TYPE 2: purely idempotent. dimensions with a start date and a end date. 
+Type 3: dimensions with a original value and a current value. partially idempotent. 
 
+Load the entire history in one query, incrementally load the data 
