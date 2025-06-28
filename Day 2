@@ -9,3 +9,4 @@ TYPE 2: purely idempotent. dimensions with a start date and a end date.
 Type 3: dimensions with a original value and a current value. partially idempotent. 
 
 Load the entire history in one query, incrementally load the data 
+player_seasons ---> players ----> players_scd 
